@@ -6,7 +6,7 @@
             <div class="flex h-16 justify-between">
                 <div class="flex">
                     <div class="flex flex-shrink-0 items-center">
-                        <img class="h-8 w-auto" src="{{ asset('images/default-logo.png') }}" alt="Company Logo">
+                     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
                     </div>
                     <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                         <!-- Navigation Links -->
