@@ -54,7 +54,7 @@
                     </div>
                     <div>
                         <dt class="text-sm font-medium text-gray-500">Account Number</dt>
-                        <dd class="mt-1 text-base font-semibold text-gray-900">{{ str_repeat('*', strlen(auth()->user()->account_number) - 4) . substr(auth()->user()->account_number, -4) }}</dd>
+                        <dd class="mt-1 text-base font-semibold text-gray-900">{{ auth()->user()->account_number}}</dd>
                     </div>
                 </dl>
             </div>
