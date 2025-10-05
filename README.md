@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# payroll_Management_system
-Payroll System
-=======
 # PayrollMS - Payroll Management System
 
 A comprehensive payroll management system built with Laravel, designed to streamline payroll processing, employee management, and attendance tracking.
@@ -98,11 +94,10 @@ php artisan serve
 ```
 
 ## Usage
-
+    URL: `http://localhost:8000/`
 ### Admin Access
-
 -   URL: `http://localhost:8000/login`
--   Email: `admin@example.com`
+-   Email: `admin@admin.com`
 -   Default Password: `password`
 
 ### Employee Access
